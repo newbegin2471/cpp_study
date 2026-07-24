@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Astm32file/c_plus_plus/demo12_this",
-      "program": "d:/Astm32file/c_plus_plus/demo12_this/build/Debug/outDebug",
+      "cwd": "d:/Astm32file/c_plus_plus/study/demo06_reference",
+      "program": "d:/Astm32file/c_plus_plus/study/demo06_reference/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
