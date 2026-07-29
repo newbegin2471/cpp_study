@@ -38,11 +38,26 @@ void selectSort(int *arr,int size){
     }
 }
 //≤Â»Î≈≈–Ú
-
+void insertSort(int *arr,int size){
+    for(int i=1;i<size;i++){
+        int base=arr[i];
+        int j=i-1;
+        for(;j>=0&&arr[j]>base;j--){
+            arr[j+1]=arr[j];
+        }
+        arr[j+1]=base;
+    }
+}
+//œ£∂˚≈≈–Ú
+void shellSort(int *arr,int size){
+    
+}
 int main()
 {
     int arr[5]={5,4,3,2,1};
     // selectSort(arr,5);
+    // print(arr,5);
+    // insertSort(arr,5);
     // print(arr,5);
     return 0;
 }
