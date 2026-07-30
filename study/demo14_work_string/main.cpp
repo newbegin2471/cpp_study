@@ -149,7 +149,8 @@ class My_string
             }
             return this->ptr[index];
         }
-
+        //ÔËËã·ûÖØÔØ
+        
 };
 int main()
 {
